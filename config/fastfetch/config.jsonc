@@ -1,0 +1,156 @@
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file-raw",
+      "padding": {
+          "top": 2
+      }
+  },
+  "display": {
+      "separator": " -> ",
+      "constants": [
+          "──────────────────────────────"
+      ]
+  },
+  "modules": [
+      {
+          "type": "custom",
+          "format": "┌{$1}{$1}┐",
+          "outputColor": "default"
+      },
+      {
+          "type": "title",
+          "keyWidth": 10
+      },
+      {
+          "type": "custom",
+          "format": "└{$1}{$1}┘",
+          "outputColor": "default"
+      },
+      {
+          "type": "custom",
+          "format": " {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}       {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}"
+      },
+      {
+          "type": "custom",
+          "format": "┌{$1}{$1}┐",
+          "outputColor": "default"
+      },
+      {
+          "type": "os",
+          "key": "{icon} OS",
+          "keyColor": "default"
+      },
+      {
+          "type": "kernel",
+          "key": "│ ├",
+          "keyColor": "default"
+      },
+      {
+          "type": "packages",
+          "key": "│ ├󰏖",
+          "keyColor": "default"
+      },
+      {
+          "type": "shell",
+          "key": "│ └",
+          "keyColor": "default"
+      },
+      {
+          "type": "wm",
+          "key": " DE/WM",
+          "keyColor": "default"
+      },
+      {
+          "type": "lm",
+          "key": "│ ├󰧨",
+          "keyColor": "default"
+      },
+      {
+          "type": "wmtheme",
+          "key": "│ ├󰉼",
+          "keyColor": "default"
+      },
+      {
+          "type": "icons",
+          "key": "│ ├󰀻",
+          "keyColor": "default"
+      },
+      {
+          "type": "terminal",
+          "key": "│ ├",
+          "keyColor": "default"
+      },
+      {
+          "type": "wallpaper",
+          "key": "│ └󰸉",
+          "keyColor": "default"
+      },
+      {
+          "type": "host",
+          "key": "󰌢 PC",
+          "keyColor": "default"
+      },
+      {
+          "type": "cpu",
+          "key": "│ ├󰻠",
+          "keyColor": "default"
+      },
+      {
+          "type": "gpu",
+          "key": "│ ├󰍛",
+          "keyColor": "default"
+      },
+      {
+          "type": "disk",
+          "key": "│ ├",
+          "keyColor": "default"
+      },
+      {
+          "type": "memory",
+          "key": "│ ├󰑭",
+          "keyColor": "default"
+      },
+      {
+          "type": "swap",
+          "key": "│ ├󰓡",
+          "keyColor": "default"
+      },
+      {
+          "type": "uptime",
+          "key": "│ ├󰅐",
+          "keyColor": "default"
+      },
+      {
+          "type": "display",
+          "key": "│ └󰍹",
+          "keyColor": "default"
+      },
+      {
+          "type": "sound",
+          "key": " SND",
+          "keyColor": "default"
+      },
+      {
+          "type": "player",
+          "key": "│ ├󰥠",
+          "keyColor": "default"
+      },
+      {
+          "type": "media",
+          "key": "│ └󰝚",
+          "keyColor": "default"
+      },
+      {
+          "type": "custom",
+          "format": "└{$1}{$1}┘",
+          "outputColor": "default"
+      },
+      "break",
+      {
+          "type": "custom",
+          "format": " {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}       {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}  {#default}"
+      }
+  ]
+}
