@@ -16,8 +16,11 @@ bspc rule -a Chromium desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-picom &
+# picom & # not using picom because felt like minimalistic bspwm better fits the aesthic. It's not riced so idk, feel free to turn on and customize.
 sxhkd &
 # POLYBAR - ACTIVATION!!!!
 ~/.config/polybar/launch.sh
 feh --bg-scale /path/to/black.png
+bspc config active_border_color "#db0087"
+bspc config focused_border_color "#db0087"
+bspc config presel_border_color "#db0087"
