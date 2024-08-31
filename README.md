@@ -1,4 +1,6 @@
 idk they told me to add :sob:
 NO WORRIES CAHT! We are getting here
-Might as well use it as my journal...
-hmmm
+
+
+
+Dependencis or smth: uhhh feh... i think that's all besides stuff you use config for
