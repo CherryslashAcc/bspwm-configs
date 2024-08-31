@@ -31,3 +31,4 @@ sxhkd &
 ~/.config/polybar/launch.sh
 feh --bg-scale /path/to/black.png
 xfsettingsd &
+xsetroot -cursor_name left_ptr
