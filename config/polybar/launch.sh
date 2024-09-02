@@ -7,4 +7,7 @@ killall -q polybar
 polybar topleft --config=~/.config/polybar/config.ini &
 polybar topright --config=~/.config/polybar/config.ini &
 polybar middletop --config=~/.config/polybar/config.ini &
+polybar bottomleft --config=~/.config/polybar/config.ini &
+polybar bottommiddle --config=~/.config/polybar/config.ini &
+polybar bottomright --config=~/.config/polybar/config.ini &
 echo "Polybar launched with bar name 'example'..."
