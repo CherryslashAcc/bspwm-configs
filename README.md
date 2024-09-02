@@ -14,7 +14,7 @@ Oke, so you gotta put the stuff from those confings to the analogus folders with
 
 
 
-![Przechwycenie obrazu ekranu_2024-09-02_20-24-12](https://github.com/user-attachments/assets/d3a5b4f3-6121-4e3d-b802-898edcdadd81)
+![example](https://github.com/user-attachments/assets/d3a5b4f3-6121-4e3d-b802-898edcdadd81)
 
 
 
