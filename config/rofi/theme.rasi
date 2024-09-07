@@ -1,0 +1,32 @@
+
+* {
+    background: #db0087;
+    foreground: #000000;
+    selected-normal: #373b41;
+    border-radius: 6px;
+}
+
+window {
+    width: 20%;
+    height: 20%;
+}
+
+mainbox {
+    children: [ listview ];
+}
+
+listview {
+    spacing: 10px;
+}
+
+element {
+    padding: 10px;
+    background: transparent;
+    
+}
+
+element selected {
+    background: #373b41;
+    
+}
+
