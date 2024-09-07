@@ -1,1 +1,15 @@
+configuration {	modi: "window,run,ssh,drun";
+	font: "Source Code Pro Semibold 12";
+
+	sidebar-mode: false;
+
+ timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }
+}
 
